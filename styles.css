@@ -1,0 +1,50 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+#newSection{
+    background-color: hsl(240, 100%, 5%);
+}
+
+#newSection h1, #headSection a:hover, #newSection a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+#newSection a{
+    color: hsl(36, 100%, 99%);
+    font-weight: bold;
+}
+
+#newSection p{
+    color: hsl(233, 8%, 79%);
+}
+
+#bottomSection a{
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+}
+
+#bottomSection a:hover{
+    color: hsl(5, 85%, 63%);
+}
