@@ -6,6 +6,7 @@ button{
     background-color: hsl(5, 85%, 63%);
     color: black;
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
 button:hover{
@@ -20,6 +21,10 @@ a:hover{
 
 a{
     text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+#headSection p, #bottomSection p{
     color: hsl(236, 13%, 42%);
 }
 
@@ -38,6 +43,14 @@ a{
 
 #newSection p{
     color: hsl(233, 8%, 79%);
+}
+
+#bottomSection section{
+    display: inline-block;
+}
+
+#bottomSection h1{
+    color: hsl(5, 85%, 63%);
 }
 
 #bottomSection a{
