@@ -10,24 +10,29 @@
 
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <link href="./styles.css" rel="stylesheet">
+  <script defer src="./main.js"></script>
 
 </head>
 <body>
   <main>
     <header id="headSection">
       <img src="./assets/images/logo.svg" alt="logo"/>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">New</a>
-        <a href="#">Popular</a>
-        <a href="#">Trending</a>
-        <a href="#">Categories</a>
+      <a href="#" id="menuOpen" onclick="openMenu(event); return false;"><img src='./assets/images/icon-menu.svg' alt="openMenu"/></a>
+      <nav id="menu">
+        <a href="#" id="menuClose" onclick="closeMenu(); return false"><img src="./assets/images/icon-menu-close.svg" alt="closeMenu"/></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
       </nav>
       
       <h1>The Bright Future of Web 3.0?</h1>
       <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
     But is it really fulfilling its promise?</p>
-      <button>READ MORE</button>
+      <button id="readMore">READ MORE</button>
     </header>
     
     <section id="newSection">
