@@ -17,9 +17,8 @@
   <main>
     <header id="headSection">
       <img src="./assets/images/logo.svg" alt="logo"/>
-      <a href="#" id="menuOpen" onclick="openMenu(event); return false;"><img src='./assets/images/icon-menu.svg' alt="openMenu"/></a>
-      <nav id="menu">
-        <a href="#" id="menuClose" onclick="closeMenu(); return false"><img src="./assets/images/icon-menu-close.svg" alt="closeMenu"/></a>
+      <a href="#" id="menuOpen" onclick="openMenu();"><img src='./assets/images/icon-menu.svg' alt="openMenu"/></a>
+      <nav id="menuDesktop">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
@@ -34,7 +33,7 @@
     But is it really fulfilling its promise?</p>
       <button id="readMore">READ MORE</button>
     </header>
-    
+
     <section id="newSection">
       <h1>New</h1>
       <a href="#">Hydrogen VS Electric Cars</a>
@@ -69,6 +68,17 @@
         <p>How the pandemic has sparked fresh opportunities.</p>
       </section>
     </section>
+    <nav id="menu">
+      <a href="#" id="menuClose" onclick="closeMenu(); return false"><img src="./assets/images/icon-menu-close.svg" alt="closeMenu"/></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
   </main>
+  
 </body>
 </html>
