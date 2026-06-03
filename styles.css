@@ -29,7 +29,15 @@ a{
 ul{
     list-style-type: none;
     overflow: hidden;
+}
 
+header, picture, section, footer{
+    padding: 10px;
+}
+
+#headSection{
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 #headSection p, #bottomSection p{
@@ -89,15 +97,29 @@ ul{
         height: 0;
     }
 
+    #headSection{
+        width: 100%;
+    }
+
     #menuDesktop{
         display: none;
     }
 }
 
 @media (min-width: 70em){
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        padding: 10px;
+    }
+
     nav{
-        position: fixed;
         right: 0;
+    }
+
+    ul{
+        text-align: right;
     }
 
     ul li{
@@ -105,8 +127,41 @@ ul{
         padding: 5px;
     }
 
+    picture{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #headSection{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #brightFuture{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #newSection{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    #bottomSection{
+        display: flex;
+        justify-content: space-around;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
     #menu{
         display: none;
+    }
+
+    #menuDesktop{
+        margin-top: 0;
     }
 
     #menuOpen, #menuClose{
