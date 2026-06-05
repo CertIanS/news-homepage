@@ -27,18 +27,23 @@ a{
     color: hsl(236, 13%, 42%);
 }
 
+p{
+    font-size: 13px;
+}
+
 ul{
     list-style-type: none;
     overflow: hidden;
 }
 
 header, picture, section, footer{
-    padding: 10px;
+    margin: 10px;
 }
 
 #headSection{
     display: inline-flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 #headSection p, #bottomSection p{
@@ -47,6 +52,7 @@ header, picture, section, footer{
 
 #newSection{
     background-color: hsl(240, 100%, 5%);
+    padding: 10px;
 }
 
 #newSection h1, #headSection a:hover, #newSection a:hover, #menu a:hover{
@@ -68,6 +74,7 @@ header, picture, section, footer{
 
 #bottomSection h1{
     color: hsl(5, 85%, 63%);
+    margin-top: 0;
 }
 
 #bottomSection a{
@@ -112,7 +119,7 @@ header, picture, section, footer{
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto;
-        padding: 0 150px 0 150px;
+        padding: 0 145px 0 145px;
     }
 
     nav{
