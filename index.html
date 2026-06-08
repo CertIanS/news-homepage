@@ -16,9 +16,9 @@
 <body>
   <main>
     <header id="headSection">
-      <img src="./assets/images/logo.svg" alt="logo" width="65" height="40"/>
+      <img src="./assets/images/logo.svg" alt="newsLogo" width="65" height="40"/>
       <a href="#" id="menuOpen" onclick="openMenu();" aria-label="Open menu"><img src='./assets/images/icon-menu.svg' alt="openMenu"/></a>
-      <nav id="menuDesktop">
+      <nav id="menuDesktop" aria-label="menu">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
@@ -29,9 +29,9 @@
       </nav>
     </header>
     <picture>
-        <source media="(max-width: 70em)" srcset="./assets/images/image-web-3-mobile.jpg" width="100%" height="100%"/>
-        <source media="(min-width: 70em)" srcset="./assets/images/image-web-3-desktop.jpg" width="100%" height="100%"/>
-        <img src="./assets/images/image-web-3-mobile.jpg" alt="webLogo"/>
+      <source media="(max-width: 70em)" srcset="./assets/images/image-web-3-mobile.jpg" width="100%" height="100%"/>
+      <source media="(min-width: 70em)" srcset="./assets/images/image-web-3-desktop.jpg" width="100%" height="100%"/>
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="webLogo"/>
     </picture>
     <section id="brightFuture" aria-labelledby="futureHeading">
       <h1 id="futureHeading">The Bright Future of Web 3.0?</h1>
@@ -52,7 +52,6 @@
       <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
     </section>
 
-    <!--<footer id="bottomSection">  -->
     <section id="retro">
       <img src="./assets/images/image-retro-pcs.jpg" alt="retro pcs" width="125" height="159"/>
       <section>
@@ -79,10 +78,9 @@
         <p>How the pandemic has sparked fresh opportunities.</p>
       </section>
     </section>
-    <!--</footer>-->
   </main>
   
-  <nav id="menu">
+  <nav id="menu" aria-label="menu">
     <a href="#" id="menuClose" onclick="closeMenu(); return false" aria-label="Close menu"><img src="./assets/images/icon-menu-close.svg" alt="closeMenu"/></a>
     <ul>
       <li><a href="#">Home</a></li>
