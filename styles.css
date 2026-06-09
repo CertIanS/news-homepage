@@ -10,6 +10,7 @@ button{
     border: none;
     padding: 15px;
     width: 14em;
+    height: 45px;
     letter-spacing: 0.3rem;
 }
 
@@ -143,6 +144,11 @@ hr{
     }
 
     #newSection{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #retro, #laptops, #gaming{
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -157,7 +163,7 @@ hr{
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto;
-        padding: 0 155px 0 155px;
+        padding: 0 220px 0 220px;
     }
 
     nav{
@@ -170,7 +176,7 @@ hr{
 
     ul li{
         display: inline;
-        padding: 5px;
+        padding-left: 2.1em;
     }
 
     picture{
@@ -189,7 +195,7 @@ hr{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        padding: 5px;
+        padding: 0.3em;
     }
 
     #futureHeading{
@@ -206,6 +212,7 @@ hr{
     
     #retro, #laptops, #gaming{
         display: inline-flex;
+        margin-top: 1.3em;
     }
 
     #menu{
