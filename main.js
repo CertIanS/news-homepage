@@ -1,7 +1,6 @@
 var menu = document.getElementById("menu");
 
 function openMenu(){
-    //e.preventDefault();
     document.querySelector("main").style.filter = "brightness(50%)";
     document.body.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
     menu.classList.add("show");
